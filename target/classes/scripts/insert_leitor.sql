@@ -1,8 +1,0 @@
---liquibase formatted sql
-
---changeset gustavo:08091522
---comment: insert values to leitor table
-INSERT INTO LEITOR VALUES (0001, 'LEITOR1', 'LEITOR1@GMAIL.COM');
-INSERT INTO LEITOR VALUES (0002, 'LEITOR2', 'LEITOR2@GMAIL.COM');
-INSERT INTO LEITOR VALUES (0003, 'LEITOR3', 'LEITOR3@GMAIL.COM');
---rollback TRUNCATE TABLE LEITOR;
